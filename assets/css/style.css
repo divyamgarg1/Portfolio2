@@ -767,6 +767,29 @@ main {
 .article-title { margin-bottom: 30px; }
 
 
+<<<<<<< HEAD
+=======
+/* Resume Download Button */
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;              /* white text */
+  background-color: #444;   /* simple dark background */
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #666;   /* slightly lighter on hover */
+}
+
+
+
+>>>>>>> fea538b (update)
 /**
  * education and experience 
  */
@@ -830,6 +853,7 @@ main {
 }
 
 
+<<<<<<< HEAD
 /**
  * skills 
  */
@@ -866,6 +890,40 @@ main {
   height: 100%;
   border-radius: inherit;
 }
+=======
+/*-----------------------------------*\
+  #SKILLS SECTION
+\*-----------------------------------*/
+
+/*-----------------------------------*\
+  #SKILLS LIST
+\*-----------------------------------*/
+
+.skills {
+  margin: 40px 0;
+}
+
+.skills .section-title {
+  font-size: var(--fs-2);
+  font-weight: var(--fw-600);
+  margin-bottom: 20px;
+  color: var(--white-2);
+}
+
+.skills-list {
+  list-style: disc inside;
+  padding-left: 10px;
+  color: var(--light-gray);
+  font-size: var(--fs-5);
+  line-height: 1.8;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+
+>>>>>>> fea538b (update)
 
 
 
@@ -1029,6 +1087,52 @@ main {
 
 
 
+<<<<<<< HEAD
+=======
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.skill-item {
+  background: rgba(40, 40, 40, 0.9); /* semi-transparent card */
+  border-radius: 15px;
+  padding: 25px 15px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.skill-item i {
+  font-size: 55px;
+  margin-bottom: 12px;
+  transition: transform 0.3s ease;
+}
+
+.skill-item p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 8px;
+}
+
+/* Hover Effects */
+.skill-item:hover {
+  transform: translateY(-12px) scale(1.05);
+  background: linear-gradient(145deg, #1f1f1f, #2b2b2b);
+  border: 1px solid var(--vegas-gold);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+}
+
+.skill-item:hover i {
+  transform: scale(1.2) rotate(5deg);
+  color: var(--vegas-gold); /* gold glow */
+}
+>>>>>>> fea538b (update)
 
 /*-----------------------------------*\
   #BLO
@@ -1161,6 +1265,16 @@ main {
   border-radius: 14px;
   outline: none;
 }
+<<<<<<< HEAD
+=======
+.project-img img {
+  width: 100%;           /* makes the image fill its container */
+  height: 150px;         /* set a fixed height */
+  object-fit: cover;     /* ensures image scales nicely without distortion */
+  border-radius: 10px;   /* optional: adds rounded corners for consistency */
+}
+
+>>>>>>> fea538b (update)
 
 .form-input::placeholder { font-weight: var(--fw-500); }
 
